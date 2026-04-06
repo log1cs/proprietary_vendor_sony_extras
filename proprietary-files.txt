@@ -1,12 +1,14 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from XQ-CQ72 (Customized SEA - 64.2.A.2.272).
 
+# 360 Reality Audio (app) - from pdx234 - 67.1.A.2.208
+system_ext/priv-app/ThreeSixtyRASystem/ThreeSixtyRASystem.apk|c17de58fd57f07f253c7278ea25e2f4d36073489
+
 # 360 Reality Audio
 system_ext/app/ThreeSixtyRASettings/ThreeSixtyRASettings.apk
 system_ext/etc/permissions/com.sony.threesixtyra.audiofx.xml
 system_ext/etc/permissions/jp.co.sony.threesixtyra.system.xml
 system_ext/framework/com.sony.threesixtyra.audiofx.jar
-system_ext/priv-app/ThreeSixtyRASystem/ThreeSixtyRASystem.apk
 vendor/bin/hw/android.hardware.media.c2@1.0-threesixty-ra-service
 vendor/etc/media_codecs_sony_c2_audio.xml
 vendor/etc/init/android.hardware.media.c2@1.0-threesixty-ra-service.rc
@@ -34,9 +36,9 @@ product/priv-app/CameraPanorama-YodoNagara/CameraPanorama-YodoNagara.apk
 product/priv-app/SomcPhotoPro-Nagara/SomcPhotoPro-Nagara.apk
 product/etc/permissions/com.sonymobile.photopro.xml
 
-# Dolby (app)
-system_ext/priv-app/DolbySound/DolbySound.apk
-system_ext/priv-app/daxService/daxService.apk
+# Dolby (app) - from pdx234 - 67.1.A.2.208
+system_ext/priv-app/DolbySound/DolbySound.apk|19b5230431622b9463fc2000b6295dd697b25c39
+system_ext/priv-app/daxService/daxService.apk|7f6b6ffe35cf3428995adf38d977c42032fa6713
 
 # Dolby
 system_ext/etc/permissions/com.dolby.daxservice.xml
@@ -71,9 +73,11 @@ vendor/lib64/soundfx/libbundlewrapper2.so
 vendor/lib64/soundfx/libbundlewrapper3.so
 vendor/lib64/soundfx/libbundlewrapper4.so
 vendor/lib64/soundfx/libdlbvol.so
-vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
+
+# Dolby (effects) - from pdx234 - 67.1.A.2.208
+vendor/lib64/soundfx/libswdap.so|a89b289b50a1cf531622bc8a8bb12ef54ad3e53f
 
 # D-range Optimizer
 vendor/etc/DrangeparaAAC128.bin
@@ -85,9 +89,11 @@ vendor/etc/DrangeparaMP3_192.bin
 vendor/etc/DrangeparaPCM441.bin
 vendor/etc/DrangeparaPCM48.bin
 
-# Sound enhancements
+# Sound enhancements - from pdx234 - 67.1.A.2.208
+system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk|3f229a280e4ac1f7088195488395ba12fe92a153
+
+# Sound enhancements (permissions)
 system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml
-system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk
 
 # Wind noise reduction
 vendor/etc/windnoise_reduction_stat.data
