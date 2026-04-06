@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# 360 Reality Audio
+PRODUCT_PACKAGES += \
+    init.threesixtyra.rc
+
 # Camera
 PRODUCT_VENDOR_PROPERTIES += \
     ro.com.google.lens.oem_camera_package=com.sonymobile.photopro
