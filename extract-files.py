@@ -14,6 +14,8 @@ from extract_utils.main import (
 )
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc': blob_fixup()
+        .regex_replace('writepid /dev/cpuset/foreground/tasks', 'task_profiles ProcessCapacityHigh HighPerformance'),
     ('vendor/lib64/libcodec2_soft_ac4dec.so', 'vendor/lib64/libcodec2_soft_ddpdec.so', 'vendor/lib64/libcodec2_soft_dolby.so', 'vendor/lib64/libcodec2_soft_mha1dec.so',
      'vendor/lib64/libcodec2_soft_mhm1dec.so', 'vendor/lib64/libdlbdsservice.so', 'vendor/lib64/libdlbdsservice.so', 'vendor/lib64/libdlbpreg.so', 'vendor/lib64/soundfx/libdlbvol.so',
      'vendor/lib64/soundfx/libswdap.so'): blob_fixup()
