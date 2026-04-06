@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Camera
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.com.google.lens.oem_camera_package=com.sonymobile.photopro
+
 # Dolby
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1 \
