@@ -1,0 +1,3 @@
+# 360RA
+vendor_public_prop(vendor_360ra_prop)
+vendor_restricted_prop(vendor_360ra_restricted_prop)
