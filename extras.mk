@@ -9,6 +9,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false
 
+# Exclude AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/sony/extras/framework_compatibility_matrix.xml
 
