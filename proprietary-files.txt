@@ -1,0 +1,96 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from XQ-CQ72 (Customized SEA - 64.2.A.2.272).
+
+# 360 Reality Audio
+system_ext/app/ThreeSixtyRASettings/ThreeSixtyRASettings.apk
+system_ext/etc/permissions/com.sony.threesixtyra.audiofx.xml
+system_ext/etc/permissions/jp.co.sony.threesixtyra.system.xml
+system_ext/framework/com.sony.threesixtyra.audiofx.jar
+system_ext/priv-app/ThreeSixtyRASystem/ThreeSixtyRASystem.apk
+vendor/bin/hw/android.hardware.media.c2@1.0-threesixty-ra-service
+vendor/etc/media_codecs_sony_c2_audio.xml
+vendor/etc/init/android.hardware.media.c2@1.0-threesixty-ra-service.rc
+vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-default-seccomp_policy
+vendor/etc/vintf/manifest/vendor.threesixty_ra.codec2.xml
+vendor/lib64/libthreesixty_ra_codec2_store.so
+vendor/lib64/libcodec2_soft_mha1dec.so
+vendor/lib64/libcodec2_soft_mhm1dec.so
+
+# 360 Reality Audio data files
+vendor/etc/speaker.hki
+vendor/etc/speaker.hki.config
+vendor/etc/XTC_speaker_coef.hki
+vendor/etc/HRTF_speaker_coef.hki
+vendor/etc/alc.speaker.bin
+vendor/etc/dsx_param_file.bin
+
+# Camera
+product/app/CameraAddonPermission/CameraAddonPermission.apk
+product/app/CameraCommonPermission/CameraCommonPermission.apk
+product/app/SomcCinemaPro-YodoNagara/SomcCinemaPro-YodoNagara.apk
+product/app/SomcVideoPro-YodoNagara/SomcVideoPro-YodoNagara.apk
+product/priv-app/CameraCommon/CameraCommon.apk
+product/priv-app/CameraPanorama-YodoNagara/CameraPanorama-YodoNagara.apk
+product/priv-app/SomcPhotoPro-Nagara/SomcPhotoPro-Nagara.apk
+product/etc/permissions/com.sonymobile.photopro.xml
+
+# Dolby (app)
+system_ext/priv-app/DolbySound/DolbySound.apk
+system_ext/priv-app/daxService/daxService.apk
+
+# Dolby
+system_ext/etc/permissions/com.dolby.daxservice.xml
+system_ext/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/bin/hw/vendor.dolby.media.c2@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc
+vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-default-seccomp_policy
+vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml
+vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml
+vendor/lib64/libcodec2_soft_ac4dec.so
+vendor/lib64/libcodec2_soft_ddpdec.so
+vendor/lib64/libcodec2_soft_dolby.so
+vendor/lib64/libcodec2_store_dolby.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdeccfg.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/libdlbpreg.so
+vendor/lib64/liboem_specific.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so;MODULE_SUFFIX=_vendor
+
+# Dolby (configs)
+system_ext/etc/permissions/com.dolby.daxservice.xml
+vendor/etc/dolby/dax-default.xml
+vendor/etc/media_codecs_dolby_audio.xml
+
+# Dolby (effects)
+vendor/lib64/soundfx/libbundlewrapper1.so
+vendor/lib64/soundfx/libbundlewrapper2.so
+vendor/lib64/soundfx/libbundlewrapper3.so
+vendor/lib64/soundfx/libbundlewrapper4.so
+vendor/lib64/soundfx/libdlbvol.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswgamedap.so
+vendor/lib64/soundfx/libswvqe.so
+
+# D-range Optimizer
+vendor/etc/DrangeparaAAC128.bin
+vendor/etc/DrangeparaAAC256.bin
+vendor/etc/DrangeparaAAC64.bin
+vendor/etc/DrangeparaMP3_128.bin
+vendor/etc/DrangeparaMP3_160.bin
+vendor/etc/DrangeparaMP3_192.bin
+vendor/etc/DrangeparaPCM441.bin
+vendor/etc/DrangeparaPCM48.bin
+
+# Sound enhancements
+system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml
+system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk
+
+# Wind noise reduction
+vendor/etc/windnoise_reduction_stat.data
+vendor/etc/windnoise_reduction_back.data
+vendor/etc/windnoise_reduction.data
+vendor/etc/windnoise_reduction_stat_back.data
