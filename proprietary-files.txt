@@ -10,31 +10,31 @@ system_ext/etc/permissions/com.sony.threesixtyra.audiofx.xml
 system_ext/etc/permissions/jp.co.sony.threesixtyra.system.xml
 system_ext/framework/com.sony.threesixtyra.audiofx.jar
 vendor/bin/hw/android.hardware.media.c2@1.0-threesixty-ra-service
-vendor/etc/media_codecs_sony_c2_audio.xml
 vendor/etc/init/android.hardware.media.c2@1.0-threesixty-ra-service.rc
+vendor/etc/media_codecs_sony_c2_audio.xml
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-default-seccomp_policy
 vendor/etc/vintf/manifest/vendor.threesixty_ra.codec2.xml
-vendor/lib64/libthreesixty_ra_codec2_store.so
 vendor/lib64/libcodec2_soft_mha1dec.so
 vendor/lib64/libcodec2_soft_mhm1dec.so
+vendor/lib64/libthreesixty_ra_codec2_store.so
 
 # 360 Reality Audio data files
-vendor/etc/speaker.hki
-vendor/etc/speaker.hki.config
-vendor/etc/XTC_speaker_coef.hki
 vendor/etc/HRTF_speaker_coef.hki
+vendor/etc/XTC_speaker_coef.hki
 vendor/etc/alc.speaker.bin
 vendor/etc/dsx_param_file.bin
+vendor/etc/speaker.hki
+vendor/etc/speaker.hki.config
 
 # Camera
 product/app/CameraAddonPermission/CameraAddonPermission.apk
 product/app/CameraCommonPermission/CameraCommonPermission.apk
 product/app/SomcCinemaPro-YodoNagara/SomcCinemaPro-YodoNagara.apk
 product/app/SomcVideoPro-YodoNagara/SomcVideoPro-YodoNagara.apk
+product/etc/permissions/com.sonymobile.photopro.xml
 product/priv-app/CameraCommon/CameraCommon.apk
 product/priv-app/CameraPanorama-YodoNagara/CameraPanorama-YodoNagara.apk
 product/priv-app/SomcPhotoPro-Nagara/SomcPhotoPro-Nagara.apk
-product/etc/permissions/com.sonymobile.photopro.xml
 
 # Dolby (app) - from pdx234 - 67.1.A.2.208
 system_ext/priv-app/DolbySound/DolbySound.apk|19b5230431622b9463fc2000b6295dd697b25c39
@@ -96,7 +96,7 @@ system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk|3f229a280e4ac1f7088195
 system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml
 
 # Wind noise reduction
-vendor/etc/windnoise_reduction_stat.data
-vendor/etc/windnoise_reduction_back.data
 vendor/etc/windnoise_reduction.data
+vendor/etc/windnoise_reduction_back.data
+vendor/etc/windnoise_reduction_stat.data
 vendor/etc/windnoise_reduction_stat_back.data
