@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
     init.threesixtyra.rc
 
 # Camera
-PRODUCT_VENDOR_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.lens.oem_camera_package=com.sonymobile.photopro
 
 # Dolby
