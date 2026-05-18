@@ -1,0 +1,2 @@
+# Allow vendor_init to set 360RA prop
+set_prop(vendor_init, vendor_360ra_prop)
