@@ -21,17 +21,20 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk_somc.so'),
     'vendor/lib64/libcodec2_hidl@1.0_somc.so': blob_fixup()
         .add_needed('libbase_shim.so')
+        .add_needed('dolbycodec_shim.so')
         .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk_somc.so')
         .replace_needed('libui.so', 'libui_somc.so')
         .replace_needed('libcodec2_hidl_plugin.so', 'libcodec2_hidl_plugin_somc.so'),
     'vendor/lib64/libcodec2_hidl@1.1_somc.so': blob_fixup()
         .add_needed('libbase_shim.so')
+        .add_needed('dolbycodec_shim.so')
         .replace_needed('libcodec2_hidl@1.0.so', 'libcodec2_hidl@1.0_somc.so')
         .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk_somc.so')
         .replace_needed('libui.so', 'libui_somc.so')
         .replace_needed('libcodec2_hidl_plugin.so', 'libcodec2_hidl_plugin_somc.so'),
     'vendor/lib64/libcodec2_hidl@1.2_somc.so': blob_fixup()
         .add_needed('libbase_shim.so')
+        .add_needed('dolbycodec_shim.so')
         .replace_needed('libcodec2_hidl@1.0.so', 'libcodec2_hidl@1.0_somc.so')
         .replace_needed('libcodec2_hidl@1.1.so', 'libcodec2_hidl@1.1_somc.so')
         .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk_somc.so')

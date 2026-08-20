@@ -17,6 +17,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_hidl@1.0_somc.so",
             ],
             shared_libs: [
+                "dolbycodec_shim",
                 "libbase_shim",
                 "android.hardware.graphics.bufferqueue@1.0",
                 "android.hardware.graphics.bufferqueue@2.0",
@@ -60,6 +61,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_hidl@1.1_somc.so",
             ],
             shared_libs: [
+                "dolbycodec_shim",
                 "libbase_shim",
                 "android.hardware.graphics.bufferqueue@1.0",
                 "android.hardware.graphics.bufferqueue@2.0",
@@ -105,6 +107,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_hidl@1.2_somc.so",
             ],
             shared_libs: [
+                "dolbycodec_shim",
                 "libbase_shim",
                 "android.hardware.graphics.bufferqueue@1.0",
                 "android.hardware.graphics.bufferqueue@2.0",
