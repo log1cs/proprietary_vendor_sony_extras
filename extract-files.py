@@ -40,6 +40,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libcodec2_vndk_somc.so': blob_fixup()
         .replace_needed('libui.so', 'libui_somc.so')
         .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
+    'vendor/lib64/libui_somc.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     ('vendor/lib64/libcodec2_hidl_plugin_somc.so', 'vendor/lib64/libcodec2_store_dolby.so', 'vendor/lib64/libthreesixty_ra_codec2_store.so'): blob_fixup()
         .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk_somc.so'),
     ('vendor/lib64/libcodec2_soft_ac4dec.so', 'vendor/lib64/libcodec2_soft_ddpdec.so', 'vendor/lib64/libcodec2_soft_dolby.so'): blob_fixup()
