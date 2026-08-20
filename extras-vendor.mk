@@ -38,18 +38,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/extras/proprietary/vendor/etc/windnoise_reduction_stat_back.data:$(TARGET_COPY_OUT_VENDOR)/etc/windnoise_reduction_stat_back.data
 
 PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.0_somc \
+    libcodec2_hidl@1.1_somc \
+    libcodec2_hidl@1.2_somc \
+    libcodec2_hidl_plugin_somc \
     libcodec2_soft_ac4dec \
+    libcodec2_soft_common_somc \
     libcodec2_soft_ddpdec \
     libcodec2_soft_dolby \
     libcodec2_soft_mha1dec \
     libcodec2_soft_mhm1dec \
     libcodec2_store_dolby \
+    libcodec2_vndk_somc \
     libdapparamstorage \
     libdeccfg \
     libdlbdsservice \
     libdlbpreg \
     liboem_specific \
     libthreesixty_ra_codec2_store \
+    libui_somc \
     libbundlewrapper1 \
     libbundlewrapper2 \
     libbundlewrapper3 \

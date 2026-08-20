@@ -41,6 +41,7 @@ system_ext/priv-app/DolbySound/DolbySound.apk|19b5230431622b9463fc2000b6295dd697
 system_ext/priv-app/daxService/daxService.apk|7f6b6ffe35cf3428995adf38d977c42032fa6713
 
 # Dolby
+system/lib64/libui.so:vendor/lib64/libui_somc.so;FIX_SONAME
 system_ext/etc/permissions/com.dolby.daxservice.xml
 system_ext/lib64/vendor.dolby.hardware.dms@2.0.so
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
@@ -50,10 +51,16 @@ vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-default-seccomp_policy
 vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml
 vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml
+vendor/lib64/libcodec2_hidl@1.0.so:vendor/lib64/libcodec2_hidl@1.0_somc.so;FIX_SONAME
+vendor/lib64/libcodec2_hidl@1.1.so:vendor/lib64/libcodec2_hidl@1.1_somc.so;FIX_SONAME
+vendor/lib64/libcodec2_hidl@1.2.so:vendor/lib64/libcodec2_hidl@1.2_somc.so;FIX_SONAME
+vendor/lib64/libcodec2_hidl_plugin.so:vendor/lib64/libcodec2_hidl_plugin_somc.so;FIX_SONAME
 vendor/lib64/libcodec2_soft_ac4dec.so
+vendor/lib64/libcodec2_soft_common.so:vendor/lib64/libcodec2_soft_common_somc.so;FIX_SONAME
 vendor/lib64/libcodec2_soft_ddpdec.so
 vendor/lib64/libcodec2_soft_dolby.so
 vendor/lib64/libcodec2_store_dolby.so
+vendor/lib64/libcodec2_vndk.so:vendor/lib64/libcodec2_vndk_somc.so;FIX_SONAME
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdeccfg.so
 vendor/lib64/libdlbdsservice.so
