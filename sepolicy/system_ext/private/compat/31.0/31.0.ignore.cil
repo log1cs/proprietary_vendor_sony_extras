@@ -1,0 +1,5 @@
+(type sony_new_objects)
+(typeattribute sony_new_objects)
+(typeattributeset sony_new_objects
+  ( sony_new_objects
+    threesixtyra_app))

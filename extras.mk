@@ -30,6 +30,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += vendor/sony/extras/sepolicy/vendor
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += vendor/sony/extras/sepolicy/system_ext/public
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += vendor/sony/extras/sepolicy/system_ext/private
 
 # Inherit from the proprietary version
 $(call inherit-product, vendor/sony/extras/extras-vendor.mk)
