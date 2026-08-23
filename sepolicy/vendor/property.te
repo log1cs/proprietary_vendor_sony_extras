@@ -1,3 +1,7 @@
 # 360RA
 vendor_public_prop(vendor_360ra_prop)
 vendor_restricted_prop(vendor_360ra_restricted_prop)
+
+# SOMC
+vendor_public_prop(vendor_sony_effect_prio_prop)
+vendor_public_prop(vendor_somc_qti_lea_support_prop)

@@ -2,3 +2,7 @@
 vendor.360ra.                                   u:object_r:vendor_360ra_prop:s0
 persist.vendor.360ra.                           u:object_r:vendor_360ra_prop:s0
 persist.vendor.360ra.debug.tuning.parameter     u:object_r:vendor_360ra_restricted_prop:s0
+
+# SOMC
+ro.vendor.sony.effect.prio                      u:object_r:vendor_sony_effect_prio_prop:s0
+vendor.somc.qti_lea.support                     u:object_r:vendor_somc_qti_lea_support_prop:s0
