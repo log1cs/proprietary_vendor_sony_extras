@@ -1058,6 +1058,13 @@ android_app_import {
     name: "SomcPhotoPro-Nagara",
     owner: "sony",
     apk: "proprietary/product/priv-app/SomcPhotoPro-Nagara/SomcPhotoPro-Nagara.apk",
+    overrides: [
+        "Aperture",
+        "Camera",
+        "Camera2",
+        "GoogleCameraGo",
+        "GCamGOPrebuilt",
+    ],
     certificate: "platform",
     dex_preopt: {
         enabled: false,
