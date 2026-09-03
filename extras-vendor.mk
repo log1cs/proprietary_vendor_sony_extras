@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/extras/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/sony/extras/proprietary/system_ext/etc/permissions/com.sony.threesixtyra.audiofx.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.sony.threesixtyra.audiofx.xml \
     vendor/sony/extras/proprietary/system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.sonyericsson.soundenhancement.xml \
+    vendor/sony/extras/proprietary/system_ext/etc/permissions/com.sonymobile.audioutil.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.sonymobile.audioutil.xml \
     vendor/sony/extras/proprietary/system_ext/etc/permissions/jp.co.sony.threesixtyra.system.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/jp.co.sony.threesixtyra.system.xml \
     vendor/sony/extras/proprietary/vendor/etc/DrangeparaAAC128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC128.bin \
     vendor/sony/extras/proprietary/vendor/etc/DrangeparaAAC256.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC256.bin \
@@ -77,6 +78,7 @@ PRODUCT_PACKAGES += \
     SomcPhotoPro-Nagara \
     ThreeSixtyRASettings \
     DolbySound \
+    ExtendedAudioService \
     SoundEnhancement \
     ThreeSixtyRASystem \
     daxService \
